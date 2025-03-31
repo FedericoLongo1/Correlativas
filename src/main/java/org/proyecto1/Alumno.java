@@ -14,7 +14,7 @@ public class Alumno{
     private Set<Materia> materiasAprobadas;
     private Inscripcion inscripcion;
 
-    public void agregarMateriaAprobadas(org.correlativas.Materia materia){
+    public void agregarMateriaAprobadas(Materia materia){
         this.materiasAprobadas.add(materia);
     }
 
